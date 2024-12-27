@@ -9,19 +9,24 @@
     <style>
         body {
             background-color: #f8f9fa;
+            background-image: url('image/udinus.jpeg'); /* Gambar latar belakang */
+            background-size: cover;
+            background-position: center;
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             margin: 0;
+            opacity: 10; /* Menambahkan transparansi */
         }
         header {
             background: linear-gradient(90deg, #007bff, #6610f2);
             color: white;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
             width: 100%;
+            opacity: 0.8;
         }
         header h1 {
             font-size: 2rem;
@@ -37,6 +42,7 @@
             border-radius: 10px;
             transition: transform 0.3s ease;
             width: 300px;
+            opacity: 0.7;
         }
         .feature-card:hover {
             transform: translateY(-5px);
@@ -46,15 +52,16 @@
             background-color: #343a40;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 7px 0;
             width: 100%;
+            opacity: 0.8;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>KRS ONLINE</h1>
-        <p>Kartu Rencana Studi Universitas Dian Nuswantoro</p>
+        <p>Kartu Rencana Studi Online Universitas Dian Nuswantoro</p>
     </header>
 
     <main>
